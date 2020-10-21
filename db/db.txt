@@ -1,0 +1,45 @@
+db kasir
+
+1. user
+- username
+- password
+- email
+- nama
+- no hp
+- alamat
+- foto
+- pathFoto
+- tempat_lahir
+- tgl_lahir
+
+3. orders
+id
+userId
+
+4. order_item
+id
+quantity
+
+4. product
+- title
+- price
+- weight
+- description
+- id_category
+- stock
+- diskon
+
+5. image_item
+id_image
+id_produk
+
+5. image_product
+id
+path
+name
+
+5. category
+id
+name
+description
+parentId
